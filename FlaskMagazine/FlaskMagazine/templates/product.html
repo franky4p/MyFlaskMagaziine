@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>{{title}}</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h3> Feature </h3>
+        <table class="table table-bordered">
+            <thead>
+            <th>Name</th>
+            <th>Value</th>
+            </thead>
+            <tbody>
+                {% for pozition in details %}
+                <tr>
+                    <td>{{pozition.name}}</td>
+                    <td>{{pozition.value}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

@@ -3,5 +3,6 @@
 ################################################################################
 
 /FlaskMagazine/env
-/FlaskMagazine
 /.vs/FlaskMagazine/v16
+/FlaskMagazine/FlaskMagazine/__pycache__
+/FlaskMagazine/FlaskMagazine.pyproj.user
