@@ -2,6 +2,6 @@
 # Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
 ################################################################################
 
-/FlaskMagazine/env/Lib/site-packages
+/FlaskMagazine/env
 /FlaskMagazine
 /.vs/FlaskMagazine/v16
