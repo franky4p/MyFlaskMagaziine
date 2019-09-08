@@ -9,10 +9,6 @@ from werkzeug.exceptions import NotFound
 from FlaskMagazine.database import db_session
 from FlaskMagazine.models import Product, Feature
 
-PRODUCTS = {1:'Tablet', 2:'Phone', 3:'Laptop'}
-pro = [{'name':'tipo name', 'value':'tipo model'},
-      {'name':'tipo name1', 'value':'tipo model1'},
-       ]
 
 @app.route('/')
 @app.route('/home')
